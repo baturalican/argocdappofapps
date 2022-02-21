@@ -14,7 +14,7 @@ spec:
     path: apps/app1
     repoURL: https://github.com/baturalican/argocdappofapps.git
     targetRevision: HEAD
-syncPolicy:
-    automated:
-      prune: true
-      selfHeal: true 
+  syncPolicy:
+      automated:
+        prune: true
+        selfHeal: true 
